@@ -43,7 +43,18 @@
       </footer>
     </div>
 
-    
+    <!-- jquery required -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<!-- petal begin -->
+<link rel="stylesheet" href="http://lsyoo.com/web/petal.min.css" type="text/css" />
+<script src="http://lsyoo.com/web/petal.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    $(document).ready(function(){  // important!
+        $.petal.init("junfamily/web", issue_id) // $.petal.init(repo, issue_id)
+    })
+</script>
+<div class="petal"></div>
+<!-- petal end -->
 
   </body>
 </html>
